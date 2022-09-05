@@ -15,7 +15,7 @@
             -   [1.3.1.6. Analisar Tweets](#1316-analisar-tweets)
             -   [1.3.1.7. Contagem de Tweets](#1317-contagem-de-tweets)
             -   [1.3.1.8. Favoritos](#1318-favoritos)
-            -   [1.3.1.9. Linhas do tempo](#1319-time-lines)
+            -   [1.3.1.9. TimeLine](#1319-time-line)
             -   [1.3.1.10. Ocultar respostas](#13110-ocultar-respostas)
             -   [1.3.1.11. Volume Stream](#13111-volume-stream)
             -   [1.3.1.12. Stream filtrada](#13112-stream-filtrada)
@@ -273,7 +273,7 @@ Future<void> main() async {
 | [DELETE /2/users/:id/bookmarks/:tweet_id](https://developer.twitter.com/en/docs/twitter-api/tweets/bookmarks/api-reference/delete-users-id-bookmarks-tweet_id) | [destroyBookmark](https://pub.dev/documentation/twitter_api_v2/latest/twitter_api_v2/TweetsService/destroyBookmark.html) |
 | [GET /2/users/:id/bookmarks](https://developer.twitter.com/en/docs/twitter-api/tweets/bookmarks/api-reference/get-users-id-bookmarks)                          | [lookupBookmarks](https://pub.dev/documentation/twitter_api_v2/latest/twitter_api_v2/TweetsService/lookupBookmarks.html) |
 
-#### 1.3.1.9. Timelines
+#### 1.3.1.9. Timeline
 
 | Endpoint                                                                                                                                                                | Nome do método                                                                                                                  |
 | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------ |
