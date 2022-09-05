@@ -13,12 +13,12 @@
             -   [1.3.1.4. Quote Tweets](#1314-quote-Tweets)
             -   [1.3.1.5. Procurar tweets](#1315-procurar-tweets)
             -   [1.3.1.6. Analisar Tweets](#1316-analisar-tweets)
-            -   [1.3.1.7. Contagens de Tweets](1317)
-            -   [1.3.1.8. Favoritos](https://pub.dev/packages/twitter_api_v2#1318-bookmarks)
-            -   [1.3.1.9. Linhas do tempo](https://pub.dev/packages/twitter_api_v2#1319-timelines)
-            -   [1.3.1.10. Ocultar respostas](https://pub.dev/packages/twitter_api_v2#13110-hide-replies)
-            -   [1.3.1.11. Stream de volume](https://pub.dev/packages/twitter_api_v2#13111-volume-stream)
-            -   [1.3.1.12. Stream filtrada](https://pub.dev/packages/twitter_api_v2#13112-filtered-stream)
+            -   [1.3.1.7. Contagens de Tweets](#1317-contagens-de-tweets)
+            -   [1.3.1.8. Favoritos](#1318-favoritos)
+            -   [1.3.1.9. Linhas do tempo](#1319-time-lines)
+            -   [1.3.1.10. Ocultar respostas](#13110-ocultar-respostas)
+            -   [1.3.1.11. Volume Stream](#13111-volume-stream)
+            -   [1.3.1.12. Stream filtrada](#13112-stream-filtrada)
         -   [1.3.2. Serviço de usuários](https://pub.dev/packages/twitter_api_v2#132-users-service)
             -   [1.3.2.1. Seguir](https://pub.dev/packages/twitter_api_v2#1321-follows)
             -   [1.3.2.2. Analisar Usuários](https://pub.dev/packages/twitter_api_v2#1322-lookup-users)
@@ -265,7 +265,7 @@ Future<void> main() async {
 | [GET /2/tweets/counts/all](https://developer.twitter.com/en/docs/twitter-api/tweets/counts/api-reference/get-tweets-counts-all)       | [countAll](https://pub.dev/documentation/twitter_api_v2/latest/twitter_api_v2/TweetsService/countAll.html)       |
 | [GET /2/tweets/counts/recent](https://developer.twitter.com/en/docs/twitter-api/tweets/counts/api-reference/get-tweets-counts-recent) | [countRecent](https://pub.dev/documentation/twitter_api_v2/latest/twitter_api_v2/TweetsService/countRecent.html) |
 
-#### 1.3.1.8. Bookmarks
+#### 1.3.1.8. Favoritos
 
 | Endpoint                                                                                                                                                       | Nome do método                                                                                                             |
 | -------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------ |
@@ -281,7 +281,7 @@ Future<void> main() async {
 | [GET /2/users/:id/tweets](https://developer.twitter.com/en/docs/twitter-api/tweets/timelines/api-reference/get-users-id-tweets)                                         | [lookupTweets](https://pub.dev/documentation/twitter_api_v2/latest/twitter_api_v2/TweetsService/lookupTweets.html)             |
 | [GET /2/users/:id/timelines/reverse_chronological](https://developer.twitter.com/en/docs/twitter-api/tweets/timelines/api-reference/get-users-id-reverse-chronological) | [lookupHomeTimeline](https://pub.dev/documentation/twitter_api_v2/latest/twitter_api_v2/TweetsService/lookupHomeTimeline.html) |
 
-#### 1.3.1.10. Hide Replies
+#### 1.3.1.10. Ocultar Respostas
 
 | Endpoint                                                                                                                             | Nome do método                                                                                                                    |
 | ------------------------------------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------ |
