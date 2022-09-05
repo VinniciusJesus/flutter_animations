@@ -23,7 +23,7 @@
             -   [1.3.2.1. Seguidores](#1321-seguidores)
             -   [1.3.2.2. Analisar Usuários](#1322-analisar-usuários)
             -   [1.3.2.3. Usuários silenciados](#1323-usuários-silenciados)
-            -   [1.3.2.4. Bloqueio](#1324-bloqueio)
+            -   [1.3.2.4. Bloqueios](#1324-bloqueios)
         -   [1.3.3. Space Services](#133-space-services)
             -   [1.3.3.1. Procurar Space](#1331-procurar-space-services)
             -   [1.3.3.2. Análise de Spaces](#1332-análise-de-spaces)
