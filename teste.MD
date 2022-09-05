@@ -5,7 +5,7 @@
         -   [1.2.1. Instalando a biblioteca](#121-instalar-biblioteca)
         -   [1.2.2. Importar](#122-importar)
         -   [1.2.3. Implementação](#123-implementação)
-    -   [1.3. Endpoints Suportados 👀](#13endpoints-suportados)
+    -   [1.3. Endpoints Suportados 👀](#13-endpoints-suportados)
         -   [1.3.1. Serviço de Tweets](https://pub.dev/packages/twitter_api_v2#131-tweets-service)
             -   [1.3.1.1. Tweet](https://pub.dev/packages/twitter_api_v2#1311-tweet)
             -   [1.3.1.2. Curtidas](https://pub.dev/packages/twitter_api_v2#1312-likes)
