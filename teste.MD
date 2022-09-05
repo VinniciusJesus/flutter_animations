@@ -1,7 +1,7 @@
 
 -   [1. Guia 🌎](#1-guia-)
     -   [1.1. Features 💎](#11-features-)
-    -   [1.2. Começando ⚡](#12)
+    -   [1.2. Começando ⚡](#12-comecando-)
         -   [1.2.1. Instalando a biblioteca](https://pub.dev/packages/twitter_api_v2#121-install-library)
         -   [1.2.2. Importar](https://pub.dev/packages/twitter_api_v2#122-import)
         -   [1.2.3. Implementação](https://pub.dev/packages/twitter_api_v2#123-implementation)
