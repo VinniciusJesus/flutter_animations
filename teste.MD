@@ -77,9 +77,9 @@ Também fornecemos [twitter_oauth2_pkce](https://pub.dev/packages/twitter_oauth2
 ✅ **Bem documentado** e bem **testado**  
 ✅ Suporta a poderosa **repetição automática**.
 
-## 1.2. Começando ⚡[](https://pub.dev/packages/twitter_api_v2#12-getting-started-)
+## 1.2. Começando ⚡
 
-### 1.2.1. Instalar biblioteca[](https://pub.dev/packages/twitter_api_v2#121-install-library)
+### 1.2.1. Instalar biblioteca
 
 **Com Dart:**
 
