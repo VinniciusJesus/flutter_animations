@@ -6,7 +6,7 @@
         -   [1.2.2. Importar](#122-importar)
         -   [1.2.3. Implementação](#123-implementação)
     -   [1.3. Endpoints Suportados 👀](#13-endpoints-suportados-)
-        -   [1.3.1. Serviço de Tweets](#131-serviço-de-tweets)
+        -   [1.3.1. Serviço de Tweets](#131-serviços-de-tweets)
             -   [1.3.1.1. Tweet](https://pub.dev/packages/twitter_api_v2#1311-tweet)
             -   [1.3.1.2. Curtidas](https://pub.dev/packages/twitter_api_v2#1312-likes)
             -   [1.3.1.3. Retweets](https://pub.dev/packages/twitter_api_v2#1313-retweets)
@@ -212,7 +212,7 @@ Future<void> main() async {
 
 ## 1.3. Endpoints Suportados 👀
 
-### 1.3.1. Tweets Service
+### 1.3.1. Serviços de Tweets
 
 #### 1.3.1.1. Tweet
 
