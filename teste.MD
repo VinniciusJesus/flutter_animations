@@ -19,43 +19,43 @@
             -   [1.3.1.10. Ocultar respostas](#13110-ocultar-respostas)
             -   [1.3.1.11. Volume Stream](#13111-volume-stream)
             -   [1.3.1.12. Stream filtrada](#13112-stream-filtrada)
-        -   [1.3.2. Serviço de usuários](https://pub.dev/packages/twitter_api_v2#132-users-service)
-            -   [1.3.2.1. Seguir](https://pub.dev/packages/twitter_api_v2#1321-follows)
-            -   [1.3.2.2. Analisar Usuários](https://pub.dev/packages/twitter_api_v2#1322-lookup-users)
-            -   [1.3.2.3. Usuários silenciados](https://pub.dev/packages/twitter_api_v2#1323-users-mutes)
-            -   [1.3.2.4. Bloqueio](https://pub.dev/packages/twitter_api_v2#1324-blocks)
-        -   [1.3.3. Serviço de Espaços](https://pub.dev/packages/twitter_api_v2#133-spaces-service)
-            -   [1.3.3.1. Espaços de pesquisa](https://pub.dev/packages/twitter_api_v2#1331-search-spaces)
-            -   [1.3.3.2. Análise de Espaços](https://pub.dev/packages/twitter_api_v2#1332-lookup-spaces)
-        -   [1.3.4. Serviços de listas](https://pub.dev/packages/twitter_api_v2#134-lists-service)
-            -   [1.3.4.1. Analisar Listas](https://pub.dev/packages/twitter_api_v2#1341-lookup-lists)
-            -   [1.3.4.2. Fixações](https://pub.dev/packages/twitter_api_v2#1342-pinnings)
-            -   [1.3.4.3. Analisar tweet](https://pub.dev/packages/twitter_api_v2#1343-tweet-lookup)
-            -   [1.3.4.4. Gerenciar lista](https://pub.dev/packages/twitter_api_v2#1344-list-manage)
-            -   [1.3.4.5. Seguir](https://pub.dev/packages/twitter_api_v2#1345-follows)
-            -   [1.3.4.6. Membros](https://pub.dev/packages/twitter_api_v2#1346-members)
-        -   [1.3.5. Serviço de Conformidade](https://pub.dev/packages/twitter_api_v2#135-compliance-service)
-            -   [1.3.5.1. Conformidade do Lote](https://pub.dev/packages/twitter_api_v2#1351-batch-compliance)
-    -   [1.4. Dicas 🏄](https://pub.dev/packages/twitter_api_v2#14-tips-)
-        -   [1.4.1. Nomes de métodos](https://pub.dev/packages/twitter_api_v2#141-method-names)
-        -   [1.4.2. Gerar Bearer Token pelo aplicativo](https://pub.dev/packages/twitter_api_v2#142-generate-app-only-bearer-token)
-        -   [1.4.3. Parâmetros nulos na requisição](https://pub.dev/packages/twitter_api_v2#143-null-parameter-at-request)
-        -   [1.4.4.  Usando `expansions` para expandir campos de Objetos](https://pub.dev/packages/twitter_api_v2#144-expand-object-fields-with-expansions)
-        -   [1.4.5. Usando `fields` para expandir campos de Objetos](https://pub.dev/packages/twitter_api_v2#145-expand-object-fields-with-fields)
-        -   [1.4.6. Fluxo de código de autorização OAuth 2.0 com PKCE](https://pub.dev/packages/twitter_api_v2#146-oauth-20-authorization-code-flow-with-pkce)
-        -   [1.4.7. Alterar a duração do Timeout](https://pub.dev/packages/twitter_api_v2#147-change-the-timeout-duration)
-        -   [1.4.8. Repetir quando ocorrer um Timeout](https://pub.dev/packages/twitter_api_v2#148-retry-when-a-timeout-occurs)
-            -   [1.4.8.1. Intervalos regulares](https://pub.dev/packages/twitter_api_v2#1481-regular-intervals)
-            -   [1.4.8.2. Retrocesso Exponencial](https://pub.dev/packages/twitter_api_v2#1482-exponential-backoff)
-            -   [1.4.8.3. Retrocesso exponencial e jitter](https://pub.dev/packages/twitter_api_v2#1483-exponential-backoff-and-jitter)
-            -   [1.4.8.4. Faça algo ao tentar novamente](https://pub.dev/packages/twitter_api_v2#1484-do-something-on-retry)
-        -   [1.4.9. Significado dos valores booleanos retornados](https://pub.dev/packages/twitter_api_v2#149-meaning-of-the-returned-boolean)
-        -   [1.4.10. Thrown Exceptions](https://pub.dev/packages/twitter_api_v2#1410-thrown-exceptions)
-    -   [1.5. Contribuição 🏆](https://pub.dev/packages/twitter_api_v2#15-contribution-)
-    -   [1.6. Colaboradores ✨](https://pub.dev/packages/twitter_api_v2#16-contributors-)
-    -   [1.7. Apoio ❤️](https://pub.dev/packages/twitter_api_v2#17-support-%EF%B8%8F)
-    -   [1.8. Licença 🔑](https://pub.dev/packages/twitter_api_v2#18-license-)
-    -   [1.9. Mais Informações 🧐](https://pub.dev/packages/twitter_api_v2#19-more-information-)
+        -   [1.3.2. Serviço de usuário](#132-serviços-de-usuario)
+            -   [1.3.2.1. Seguir](#1321-seguidores)
+            -   [1.3.2.2. Analisar Usuários](#1322-analisar-usuários)
+            -   [1.3.2.3. Usuários silenciados](#1323-usuários-silenciados)
+            -   [1.3.2.4. Bloqueio](#1324-bloqueio)
+        -   [1.3.3. Space Services](#133-space-services)
+            -   [1.3.3.1. Procurar Space](#1331-procurar-space-services)
+            -   [1.3.3.2. Análise de Spaces](#1332-análise-de-spaces)
+        -   [1.3.4. Serviços de listas](#134-serviços-de-listas)
+            -   [1.3.4.1. Analisar Listas](#1341-analisar-listas)
+            -   [1.3.4.2. Fixações](#1342-fixações)
+            -   [1.3.4.3. Analisar tweet](#1344-analisar-tweet)
+            -   [1.3.4.4. Gerenciar lista](#1344-gerenciar-listas)
+            -   [1.3.4.5. Seguir](#1345-seguir)
+            -   [1.3.4.6. Membros](#1346-membros)
+        -   [1.3.5. Serviço de Conformidade](#135-serviço-de-conformidade)
+            -   [1.3.5.1. Conformidade do Lote](#1351-conformidade-do-lote)
+    -   [1.4. Dicas 🏄](#1.4-dicas)
+        -   [1.4.1. Nomes de métodos](#141-nome-dos-métodos)
+        -   [1.4.2. Gerar Bearer Token pelo aplicativo](#142-gerar-bearer-token-pelo-aplicativo)
+        -   [1.4.3. Parâmetros nulos na requisição](#143-parâmetros-nulos-na-requisição)
+        -   [1.4.4.  Usando `expansions` para expandir campos de Objetos](#144-usando-expansions-para-expandir-campos-de-objetos)
+        -   [1.4.5. Usando `fields` para expandir campos de Objetos](#145-usando-fields-para-expandir-campos-de-objetos)
+        -   [1.4.6. Fluxo de código de autorização OAuth 2.0 com PKCE](#147-fluxo-de-código-de-autorização-oauth20-com-pkce)
+        -   [1.4.7. Alterar a duração do Timeout](#147-alterar-a-duração-do-timeout)
+        -   [1.4.8. Repetir quando ocorrer um Timeout](#148-repetir-quando-ocorrer-um-timeout)
+            -   [1.4.8.1. Intervalos regulares](#1481-intervalos-regulares)
+            -   [1.4.8.2. Retrocesso Exponencial](#1482-retrocesso-exponencial)
+            -   [1.4.8.3. Retrocesso exponencial e jitter](#1483-retrocesso-exponencial-e-jitter)
+            -   [1.4.8.4. Faça algo ao tentar novamente](#1484-faça-algo-ao-tentar-novamente)
+        -   [1.4.9. Significado dos valores booleanos retornados](#149-significado-dos-valores-booleanos-retornados)
+        -   [1.4.10. Thrown Exceptions](#1410-thrown-exceptions)
+    -   [1.5. Contribuição 🏆](#15-contribuição)
+    -   [1.6. Colaboradores ✨](#16-colaboradores)
+    -   [1.7. Apoio ❤️](#17-apoio)
+    -   [1.8. Licença 🔑](#18-licença)
+    -   [1.9. Mais Informações 🧐](#19-mais-informações)
 
 # 1. Guia 🌎
 
@@ -294,7 +294,7 @@ Future<void> main() async {
 | --------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------- |
 | [GET /2/tweets/sample/stream](https://developer.twitter.com/en/docs/twitter-api/tweets/volume-streams/api-reference/get-tweets-sample-stream) | [connectVolumeStream](https://pub.dev/documentation/twitter_api_v2/latest/twitter_api_v2/TweetsService/connectVolumeStream.html) |
 
-#### 1.3.1.12. Filtered Stream
+#### 1.3.1.12. Stream Filtrada
 
 | Endpoint                                                                                                                                                     | Nome do método                                                                                                                       |
 | ------------------------------------------------------------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------ |
@@ -302,7 +302,7 @@ Future<void> main() async {
 | [GET /2/tweets/search/stream/rules](https://developer.twitter.com/en/docs/twitter-api/tweets/filtered-stream/api-reference/get-tweets-search-stream-rules)   | [lookupFilteringRules](https://pub.dev/documentation/twitter_api_v2/latest/twitter_api_v2/TweetsService/lookupFilteringRules.html)   |
 | [GET /2/tweets/search/stream](https://developer.twitter.com/en/docs/twitter-api/tweets/filtered-stream/api-reference/get-tweets-search-stream)               | [connectFilteredStream](https://pub.dev/documentation/twitter_api_v2/latest/twitter_api_v2/TweetsService/connectFilteredStream.html) |
 
-### 1.3.2. Users Service
+### 1.3.2. Serviços de usuário
 
 #### 1.3.2.1. Follows
 
@@ -313,7 +313,7 @@ Future<void> main() async {
 | [GET /2/users/:id/followers](https://developer.twitter.com/en/docs/twitter-api/users/follows/api-reference/get-users-id-followers)                                          | [lookupFollowers](https://pub.dev/documentation/twitter_api_v2/latest/twitter_api_v2/UsersService/lookupFollowers.html)   |
 | [GET /2/users/:id/following](https://developer.twitter.com/en/docs/twitter-api/users/follows/api-reference/get-users-id-following)                                          | [lookupFollowings](https://pub.dev/documentation/twitter_api_v2/latest/twitter_api_v2/UsersService/lookupFollowings.html) |
 
-#### 1.3.2.2. Lookup Users
+#### 1.3.2.2. Analisar Usuários
 
 | Endpoint                                                                                                                                          | Nome do método                                                                                                       |
 | ------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------- |
@@ -323,7 +323,7 @@ Future<void> main() async {
 | [GET /2/users/by/username/:username](https://developer.twitter.com/en/docs/twitter-api/users/lookup/api-reference/get-users-by-username-username) | [lookupByName](https://pub.dev/documentation/twitter_api_v2/latest/twitter_api_v2/UsersService/lookupByName.html)   |
 | [GET /2/users/me](https://developer.twitter.com/en/docs/twitter-api/users/lookup/api-reference/get-users-me)                                      | [lookupMe](https://pub.dev/documentation/twitter_api_v2/latest/twitter_api_v2/UsersService/lookupMe.html)           |
 
-#### 1.3.2.3. Users Mutes
+#### 1.3.2.3. Usuários Silenciados
 
 | Endpoint                                                                                                                                                          | Nome do método                                                                                                                |
 | ----------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------- |
@@ -331,7 +331,7 @@ Future<void> main() async {
 | [DELETE /2/users/:source_user_id/muting/:target_user_id](https://developer.twitter.com/en/docs/twitter-api/users/mutes/api-reference/delete-users-user_id-muting) | [destroyMute](https://pub.dev/documentation/twitter_api_v2/latest/twitter_api_v2/UsersService/destroyMute.html)             |
 | [GET /2/users/:id/muting](https://developer.twitter.com/en/docs/twitter-api/users/mutes/api-reference/get-users-muting)                                           | [lookupMutingUsers](https://pub.dev/documentation/twitter_api_v2/latest/twitter_api_v2/UsersService/lookupMutingUsers.html) |
 
-#### 1.3.2.4. Blocks
+#### 1.3.2.4. Bloqueios
 
 | Endpoint                                                                                                                                                               | Nome do método                                                                                                                    |
 | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------- |
@@ -347,7 +347,7 @@ Future<void> main() async {
 | ----------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------ |
 | [GET /2/spaces/search](https://developer.twitter.com/en/docs/twitter-api/spaces/search/api-reference/get-spaces-search) | [search](https://pub.dev/documentation/twitter_api_v2/latest/twitter_api_v2/SpacesService/search.html) |
 
-#### 1.3.3.2. Lookup Spaces
+#### 1.3.3.2. Analisar Spaces
 
 | Endpoint                                                                                                                                | Nome do método                                                                                                                  |
 | --------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------ |
@@ -357,16 +357,16 @@ Future<void> main() async {
 | [GET /2/spaces/:id/tweets](https://developer.twitter.com/en/docs/twitter-api/spaces/lookup/api-reference/get-spaces-id-tweets)          | [lookupTweets](https://pub.dev/documentation/twitter_api_v2/latest/twitter_api_v2/SpacesService/lookupTweets.html)             |
 | [GET /2/spaces/by/creator_ids](https://developer.twitter.com/en/docs/twitter-api/spaces/lookup/api-reference/get-spaces-by-creator-ids) | [lookupByCreatorIds](https://pub.dev/documentation/twitter_api_v2/latest/twitter_api_v2/SpacesService/lookupByCreatorIds.html) |
 
-### 1.3.4. Lists Service
+### 1.3.4. Serviços de Listas
 
-#### 1.3.4.1. Lookup Lists
+#### 1.3.4.1. Analisar Listas
 
 | Endpoint                                                                                                                                   | Nome do método                                                                                                    |
 | ------------------------------------------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------- |
 | [GET /2/lists/:id](https://developer.twitter.com/en/docs/twitter-api/lists/list-lookup/api-reference/get-lists-id)                         | [lookupById](https://pub.dev/documentation/twitter_api_v2/latest/twitter_api_v2/ListsService/lookupById.html)       |
 | [GET /2/users/:id/owned_lists](https://developer.twitter.com/en/docs/twitter-api/lists/list-lookup/api-reference/get-users-id-owned_lists) | [lookupOwnedBy](https://pub.dev/documentation/twitter_api_v2/latest/twitter_api_v2/ListsService/lookupOwnedBy.html) |
 
-#### 1.3.4.2. Pinnings
+#### 1.3.4.2. Fixações
 
 | Endpoint                                                                                                                                                             | Nome do método                                                                                                              |
 | -------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------- |
@@ -374,13 +374,13 @@ Future<void> main() async {
 | [DELETE /2/users/:id/pinned_lists/:list_id](https://developer.twitter.com/en/docs/twitter-api/lists/pinned-lists/api-reference/delete-users-id-pinned-lists-list_id) | [destroyPinnedList](https://pub.dev/documentation/twitter_api_v2/latest/twitter_api_v2/ListsService/destroyPinnedList.html) |
 | [GET /2/users/:id/pinned_lists](https://developer.twitter.com/en/docs/twitter-api/lists/pinned-lists/api-reference/get-users-id-pinned_lists)                        | [lookupPinnedLists](https://pub.dev/documentation/twitter_api_v2/latest/twitter_api_v2/ListsService/lookupPinnedLists.html) |
 
-#### 1.3.4.3. Tweet Lookup
+#### 1.3.4.3. Analisar Tweet
 
 | Endpoint                                                                                                                         | Nome do método                                                                                                     |
 | -------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------- |
 | [GET /2/lists/:id/tweets](https://developer.twitter.com/en/docs/twitter-api/lists/list-tweets/api-reference/get-lists-id-tweets) | [lookupTweets](https://pub.dev/documentation/twitter_api_v2/latest/twitter_api_v2/ListsService/lookupTweets.html) |
 
-#### 1.3.4.4. List Manage
+#### 1.3.4.4. Gerenciar Listas
 
 | Endpoint                                                                                                                  | Nome do método                                                                                                                   |
 | ------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------- |
@@ -390,7 +390,7 @@ Future<void> main() async {
 | [PUT /2/lists/:id](https://developer.twitter.com/en/docs/twitter-api/lists/manage-lists/api-reference/put-lists-id)       | [updateListAsPublic](https://pub.dev/documentation/twitter_api_v2/latest/twitter_api_v2/ListsService/updateListAsPublic.html)   |
 | [PUT /2/lists/:id](https://developer.twitter.com/en/docs/twitter-api/lists/manage-lists/api-reference/put-lists-id)       | [updateListAsPrivate](https://pub.dev/documentation/twitter_api_v2/latest/twitter_api_v2/ListsService/updateListAsPrivate.html) |
 
-#### 1.3.4.5. Follows
+#### 1.3.4.5. Seguidores
 
 | Endpoint                                                                                                                                                                 | Nome do método                                                                                                                   |
 | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------- |
@@ -399,7 +399,7 @@ Future<void> main() async {
 | [GET /2/lists/:id/followers](https://developer.twitter.com/en/docs/twitter-api/lists/list-follows/api-reference/get-lists-id-followers)                                  | [lookupFollowers](https://pub.dev/documentation/twitter_api_v2/latest/twitter_api_v2/ListsService/lookupFollowers.html)         |
 | [GET /2/users/:id/followed_lists](https://developer.twitter.com/en/docs/twitter-api/lists/list-follows/api-reference/get-users-id-followed_lists)                        | [lookupFollowedLists](https://pub.dev/documentation/twitter_api_v2/latest/twitter_api_v2/ListsService/lookupFollowedLists.html) |
 
-#### 1.3.4.6. Members
+#### 1.3.4.6. Membros
 
 | Endpoint                                                                                                                                                   | Nome do método                                                                                                               |
 | ---------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------- |
@@ -418,7 +418,7 @@ Future<void> main() async {
 | [GET /2/compliance/jobs](https://developer.twitter.com/en/docs/twitter-api/compliance/batch-compliance/api-reference/get-compliance-jobs)        | [lookupJobs](https://pub.dev/documentation/twitter_api_v2/latest/twitter_api_v2/ComplianceService/lookupJobs.html) |
 | [GET /2/compliance/jobs/:id](https://developer.twitter.com/en/docs/twitter-api/compliance/batch-compliance/api-reference/get-compliance-jobs-id) | [lookupJob](https://pub.dev/documentation/twitter_api_v2/latest/twitter_api_v2/ComplianceService/lookupJob.html)   |
 
-## 1.4. Tips 🏄
+## 1.4. Dicas 🏄
 
 ### 1.4.1. Nome dos métodos 
 
