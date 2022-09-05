@@ -596,29 +596,12 @@ Quando esses tempos limite ocorrem, uma contramedida eficaz em muitos casos é e
 
 Existem 3 métodos de repetição fornecidos por **twitter_api_v2** .
 
-Estratégia de repetição
 
-Construtor
-
-Descrição
-
-Regular Intervals
-
-RetryConfig.regularIntervals
-
-Tente novamente em intervalos regulares.
-
-Exponential Backoff
-
-RetryConfig.exponentialBackOff
-
-O intervalo de novas tentativas é aumentado exponencialmente de acordo com o número de tentativas.
-
-Exponential Backoff and Jitter
-
-RetryConfig.exponentialBackOffAndJitter
-
-Um número aleatório chamado Jitter é adicionado para aumentar exponencialmente o intervalo de novas tentativas de acordo com o número de tentativas.
+| Retry Strategy                 | Constructor                             | Description                                                                                                             |
+| ------------------------------ | --------------------------------------- | ----------------------------------------------------------------------------------------------------------------------- |
+| Regular Intervals              | RetryConfig.regularIntervals            | Tente novamente em intervalos regulares.                                                                     |
+| Exponential Backoff            | RetryConfig.exponentialBackOff          | O intervalo de novas tentativas é aumentado exponencialmente de acordo com o número de tentativas.               |
+| Exponential Backoff and Jitter | RetryConfig.exponentialBackOffAndJitter | Um número aleatório chamado Jitter é adicionado para aumentar exponencialmente o intervalo de novas tentativas de acordo com o número de tentativas. |
 
 #### 1.4.8.1. Intervalos regulares
 
@@ -752,12 +735,12 @@ No entanto, conforme mencionado anteriormente em **twitter_api_v2** , por exempl
 | -------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------- |
 | [TwitterException](https://pub.dev/documentation/twitter_api_v2/latest/twitter_api_v2/TwitterException-class.html)                     | O objeto de exceção mais básico. Por exemplo, pode ser usado para pesquisar tweets que já foram excluídos, etc. |
 | [UnauthorizedException](https://pub.dev/documentation/twitter_api_v2/latest/twitter_api_v2/UnauthorizedException-class.html)           | Lançado quando a autenticação falha com o token de acesso especificado.                                                      |
-| [RateLimitExceededException](https://pub.dev/documentation/twitter_api_v2/latest/twitter_api_v2/RateLimitExceededException-class.html) | Lançado quando o limite da taxa de solicitação é excedido.                                                                       |
+| [RateLimitExceededException](https://pub.dev/documentation/twitter_api_v2/latest/twitter_api_v2/RateLimitExceededException-class.html) | Thrown when the request rate limit is exceeded.                                                                        |
 
 Lançado quando o limite da taxa de solicitação é excedido.
 
 
-## 1.5. Contribution 🏆
+## 1.5. Contribuição 🏆
 
 
 Se você quiser contribuir para o **twitter_api_v2**, crie um [problema](https://github.com/twitter-dart/twitter-api-v2/issues) ou crie um Pull Request.
@@ -811,13 +794,13 @@ Obrigado a essas pessoas maravilhosas ([emoji key](https://allcontributors.org/d
 
 <!-- ALL-CONTRIBUTORS-LIST:END -->
 
-This project follows the [all-contributors](https://github.com/all-contributors/all-contributors) specification. Contributions of any kind welcome!
+Este projeto segue a [all-contributors](https://github.com/all-contributors/all-contributors) especificação. Contribuições de qualquer tipo são bem-vindas!
 
-## 1.7. Support ❤️
+## 1.7. Suporte ❤️
 
-The simplest way to show us your support is by **giving the project a star** at [GitHub](https://github.com/twitter-dart/twitter-api-v2) and [Pub.dev](https://pub.dev/packages/twitter_api_v2).
+A maneira mais simples de nos mostrar seu apoio é **dar uma estrela ao projeto** at [GitHub](https://github.com/twitter-dart/twitter-api-v2) and [Pub.dev](https://pub.dev/packages/twitter_api_v2).
 
-You can also support this project by **becoming a sponsor** on GitHub:
+Você também pode apoiar este projeto **tornando-se um patrocinador** no GitHub:
 
 <div align="left">
   <p>
@@ -827,7 +810,7 @@ You can also support this project by **becoming a sponsor** on GitHub:
   </p>
 </div>
 
-You can also show on your repository that your app is made with **twitter_api_v2** by using one of the following badges:
+Você também pode mostrar em seu repositório que seu aplicativo é feito com **twitter_api_v2** usando um dos seguintes selos:
 
 [![Powered by twitter_api_v2](https://img.shields.io/badge/Powered%20by-twitter_api_v2-00acee.svg)](https://github.com/twitter-dart/twitter-api-v2)
 [![Powered by twitter_api_v2](https://img.shields.io/badge/Powered%20by-twitter_api_v2-00acee.svg?style=flat-square)](https://github.com/twitter-dart/twitter-api-v2)
@@ -839,16 +822,16 @@ You can also show on your repository that your app is made with **twitter_api_v2
 [![Powered by twitter_api_v2](https://img.shields.io/badge/Powered%20by-twitter_api_v2-00acee.svg?style=for-the-badge)](https://github.com/twitter-dart/twitter-api-v2)
 ```
 
-## 1.8. License 🔑
+## 1.8. Licença 🔑
 
-All resources of **twitter_api_v2** is provided under the `BSD-3` license.
+Todos os recursos do **twitter_api_v2** são fornecidos sob a licença `BSD-3`.
 
 [![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Ftwitter-dart%2Ftwitter-api-v2.svg?type=large)](https://app.fossa.com/projects/git%2Bgithub.com%2Ftwitter-dart%2Ftwitter-api-v2?ref=badge_large)
 
-> **Note**</br>
-> License notices in the source are strictly validated based on `.github/header-checker-lint.yml`. Please check [header-checker-lint.yml](https://github.com/twitter-dart/twitter-api-v2/tree/main/.github/header-checker-lint.yml) for the permitted standards.
+> **Observação**</br>
+> Os avisos de licença na fonte são validados estritamente com base em `.github/header-checker-lint.yml`. Por favor, verifique[header-checker-lint.yml](https://github.com/twitter-dart/twitter-api-v2/tree/main/.github/header-checker-lint.yml) para os padrões permitidos.
 
-## 1.9. More Information 🧐
+## 1.9. Mais Informações 🧐
 
 **twitter_api_v2** was designed and implemented by **_Kato Shinya ([@myConsciousness](https://github.com/myConsciousness))_**.
 
