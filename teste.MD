@@ -1,7 +1,7 @@
 
 -   [1. Guia 🌎](#1-guia-)
     -   [1.1. Features 💎](#11-features-)
-    -   [1.2. Começando ⚡](#12-comecando-)
+    -   [1.2. Começando ⚡](#12-começando)
         -   [1.2.1. Instalando a biblioteca](#121-instalar-biblioteca)
         -   [1.2.2. Importar](#122-importar)
         -   [1.2.3. Implementação](#123-implementação)
