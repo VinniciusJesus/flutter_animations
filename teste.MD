@@ -1,6 +1,6 @@
 
 -   [1. Guia 🌎](#1-guia-)
-    -   [1.1. Características 💎](#1.1.características-)
+    -   [1.1. Características 💎](#11-características-)
     -   [1.2. Começando ⚡](https://pub.dev/packages/twitter_api_v2#12-getting-started-)
         -   [1.2.1. Instalando a biblioteca](https://pub.dev/packages/twitter_api_v2#121-install-library)
         -   [1.2.2. Importar](https://pub.dev/packages/twitter_api_v2#122-import)
