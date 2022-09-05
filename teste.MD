@@ -11,9 +11,9 @@
             -   [1.3.1.2. Curtidas](#1312-curtidas)
             -   [1.3.1.3. Retweets](#1313-retweets)
             -   [1.3.1.4. Quote Tweets](#1314-quote-Tweets)
-            -   [1.3.1.5. Pesquisar tweets](#1315-procurar-tweets)
+            -   [1.3.1.5. Procurar tweets](#1315-procurar-tweets)
             -   [1.3.1.6. Analisar Tweets](#1316-analisar-tweets)
-            -   [1.3.1.7. Contagens de Tweets](https://pub.dev/packages/twitter_api_v2#1317-tweet-counts)
+            -   [1.3.1.7. Contagens de Tweets](1317)
             -   [1.3.1.8. Favoritos](https://pub.dev/packages/twitter_api_v2#1318-bookmarks)
             -   [1.3.1.9. Linhas do tempo](https://pub.dev/packages/twitter_api_v2#1319-timelines)
             -   [1.3.1.10. Ocultar respostas](https://pub.dev/packages/twitter_api_v2#13110-hide-replies)
@@ -258,7 +258,7 @@ Future<void> main() async {
 | [GET /2/tweets](https://developer.twitter.com/en/docs/twitter-api/tweets/lookup/api-reference/get-tweets)        | [lookupByIds](https://pub.dev/documentation/twitter_api_v2/latest/twitter_api_v2/TweetsService/lookupByIds.html) |
 | [GET /2/tweets/:id](https://developer.twitter.com/en/docs/twitter-api/tweets/lookup/api-reference/get-tweets-id) | [lookupById](https://pub.dev/documentation/twitter_api_v2/latest/twitter_api_v2/TweetsService/lookupByIds.html)  |
 
-#### 1.3.1.7. Tweet Counts
+#### 1.3.1.7. Contagem de Tweets
 
 | Endpoint                                                                                                                              | Nome do método                                                                                                   |
 | ------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------- |
