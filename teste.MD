@@ -10,9 +10,9 @@
             -   [1.3.1.1. Tweet](#1311-tweet)
             -   [1.3.1.2. Curtidas](#1312-curtidas)
             -   [1.3.1.3. Retweets](#1313-retweets)
-            -   [1.3.1.4. Citação de Tweets](1314-citação-de-tweets)
-            -   [1.3.1.5. Pesquisar tweets](https://pub.dev/packages/twitter_api_v2#1315-search-tweets)
-            -   [1.3.1.6. Analisar Tweets](https://pub.dev/packages/twitter_api_v2#1316-lookup-tweets)
+            -   [1.3.1.4. Quote Tweets](#1314-quote-Tweets)
+            -   [1.3.1.5. Pesquisar tweets](#1315-procurar-tweets)
+            -   [1.3.1.6. Analisar Tweets](#1316-analisar-tweets)
             -   [1.3.1.7. Contagens de Tweets](https://pub.dev/packages/twitter_api_v2#1317-tweet-counts)
             -   [1.3.1.8. Favoritos](https://pub.dev/packages/twitter_api_v2#1318-bookmarks)
             -   [1.3.1.9. Linhas do tempo](https://pub.dev/packages/twitter_api_v2#1319-timelines)
@@ -221,7 +221,7 @@ Future<void> main() async {
 | [POST /2/tweets](https://developer.twitter.com/en/docs/twitter-api/tweets/manage-tweets/api-reference/post-tweets)            | [createTweet](https://pub.dev/documentation/twitter_api_v2/latest/twitter_api_v2/TweetsService/createTweet.html)   |
 | [DELETE /2/tweets/:id](https://developer.twitter.com/en/docs/twitter-api/tweets/manage-tweets/api-reference/delete-tweets-id) | [destroyTweet](https://pub.dev/documentation/twitter_api_v2/latest/twitter_api_v2/TweetsService/destroyTweet.html) |
 
-#### 1.3.1.2. Likes
+#### 1.3.1.2. Curtidas
 
 | Endpoint                                                                                                                                           | Nome do método                                                                                                                   |
 | -------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------- |
@@ -244,14 +244,14 @@ Future<void> main() async {
 | ------------------------------------------------------------------------------------------------------------------------------------------------ | ---------------------------------------------------------------------------------------------------------------------------- |
 | [GET /2/tweets/:id/quote_tweets](https://developer.twitter.com/en/docs/twitter-api/tweets/quote-tweets/api-reference/get-tweets-id-quote_tweets) | [lookupQuoteTweets](https://pub.dev/documentation/twitter_api_v2/latest/twitter_api_v2/TweetsService/lookupQuoteTweets.html) |
 
-#### 1.3.1.5. Search Tweets
+#### 1.3.1.5. Procurar Tweets
 
 | Endpoint                                                                                                                              | Nome do método                                                                                                      |
 | ------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------ |
 | [GET /2/tweets/search/all](https://developer.twitter.com/en/docs/twitter-api/tweets/search/api-reference/get-tweets-search-all)       | [searchAll](https://pub.dev/documentation/twitter_api_v2/latest/twitter_api_v2/TweetsService/searchAll.html)       |
 | [GET /2/tweets/search/recent](https://developer.twitter.com/en/docs/twitter-api/tweets/search/api-reference/get-tweets-search-recent) | [searchRecent](https://pub.dev/documentation/twitter_api_v2/latest/twitter_api_v2/TweetsService/searchRecent.html) |
 
-#### 1.3.1.6. Lookup Tweets
+#### 1.3.1.6. Analisar Tweets
 
 | Endpoint                                                                                                         | Nome do método                                                                                                     |
 | ---------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------- |
