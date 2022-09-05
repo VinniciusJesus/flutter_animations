@@ -1,7 +1,7 @@
 
 -   [1. Guia 🌎](#1-guia-)
     -   [1.1. Features 💎](#11-features-)
-    -   [1.2. Começando ⚡](https://pub.dev/packages/twitter_api_v2#12-getting-started-)
+    -   [1.2. Começando ⚡](#12)
         -   [1.2.1. Instalando a biblioteca](https://pub.dev/packages/twitter_api_v2#121-install-library)
         -   [1.2.2. Importar](https://pub.dev/packages/twitter_api_v2#122-import)
         -   [1.2.3. Implementação](https://pub.dev/packages/twitter_api_v2#123-implementation)
@@ -95,14 +95,14 @@ Também fornecemos [twitter_oauth2_pkce](https://pub.dev/packages/twitter_oauth2
 
 ```
 
-### 1.2.2. Importar[](https://pub.dev/packages/twitter_api_v2#122-import)
+### 1.2.2. Importar
 
 ```dart
 import 'package:twitter_api_v2/twitter_api_v2';
 
 ```
 
-### 1.2.3. Implementação[](https://pub.dev/packages/twitter_api_v2#123-implementation)
+### 1.2.3. Implementação
 
 ```dart
 import 'dart:async';
@@ -435,7 +435,7 @@ Future<void> main() async {
 | **update**  | Esse prefixo é anexado ao endpoint que executa o estado de atualização.        
 
 
-### 1.4.2. Gerar Bearer Token pelo aplicativo[](https://pub.dev/packages/twitter_api_v2#142-generate-app-only-bearer-token)
+### 1.4.2. Gerar Bearer Token pelo aplicativo
 
 **twitter_api_v2** fornece utilitário para gerar/encontrar seu token de portador somente de aplicativo.
 
@@ -453,7 +453,7 @@ Future<void> main() async {
 
 ```
 
-### 1.4.3. Parâmetro nulo na solicitação[](https://pub.dev/packages/twitter_api_v2#143-null-parameter-at-request)
+### 1.4.3. Parâmetro nulo na solicitação
 
 Nesta biblioteca, os parâmetros que não são necessários no momento da solicitação, ou seja, parâmetros opcionais, são definidos como anuláveis. No entanto, os desenvolvedores não precisam estar cientes do parâmetro null ao enviar solicitações ao usar essa biblioteca.
 
@@ -477,7 +477,7 @@ Future<void> main() async {
 
 ```
 
-### 1.4.4. Usando `expansions` para expandir campos de Objetos[](https://pub.dev/packages/twitter_api_v2#144-expand-object-fields-with-expansions)
+### 1.4.4. Usando `expansions` para expandir campos de Objetos
 
 Por exemplo, pode haver uma situação em que os dados contenham apenas um ID e você queira recuperar também o objeto de dados associado a esse ID. Nesses casos, a `Twitter API v2.0`especificação chamada `expansions`é útil e essa biblioteca suporta essa especificação.
 
@@ -511,8 +511,7 @@ Future<void> main() async {
 
 Você pode ver mais detalhes sobre `expansions` na [Documentação Oficial](https://developer.twitter.com/en/docs/twitter-api/expansions) .
 
-### 1.4.5. Usando `fields` para expandir campos de Objetos[](https://pub.dev/packages/twitter_api_v2#145-expand-object-fields-with-fields)
-
+### 1.4.5. Usando `fields` para expandir campos de Objetos
 `Twitter API v2.0`suporta uma especificação muito interessante, permitindo que os usuários controlem a quantidade de dados contidos no objeto de resposta para cada endpoint dependendo da situação. Chama-se `fields`, e esta biblioteca suporta esta especificação.
 
 Basicamente pode ser usado em endpoints que realizam comunicação GET como `lookup`e `search`processamento. Alguns campos também podem ser incluídos no `includes`campo [TwitterResponse](https://pub.dev/documentation/twitter_api_v2/latest/twitter_api_v2/TwitterResponse-class.html) .
@@ -553,7 +552,7 @@ Future<void> main() async {
 
 Você pode ver mais detalhes sobre `fields` na [Documentação Oficial](https://developer.twitter.com/en/docs/twitter-api/fields) .
 
-### 1.4.6. Fluxo de código de autorização OAuth 2.0 com PKCE[](https://pub.dev/packages/twitter_api_v2#146-oauth-20-authorization-code-flow-with-pkce)
+### 1.4.6. Fluxo de código de autorização OAuth 2.0 com PKCE
 
 **A API do Twitter v2.0** oferece suporte a métodos de autenticação com [OAuth 2.0 PKCE](https://developer.twitter.com/en/docs/authentication/oauth-2-0/authorization-code) e permite que os usuários de aplicativos que usam a **API do Twitter v2.0** solicitem autorização para o [escopo](https://developer.twitter.com/en/docs/authentication/guides/v2-authentication-mapping) mínimo de operação necessário.
 
@@ -568,7 +567,7 @@ Além disso, consulte o próximo exemplo simples de aplicativo Flutter que combi
 
 -   [Exemplo de aplicativo de tweet](https://github.com/twitter-dart/example-tweet-app-with-twitter-api-v2)
 
-### 1.4.7. Alterar a duração do Timeout[](https://pub.dev/packages/twitter_api_v2#147-change-the-timeout-duration)
+### 1.4.7. Alterar a duração do Timeout
 
 A biblioteca especifica um tempo limite padrão de **10 segundos** para todas as comunicações da API.
 
