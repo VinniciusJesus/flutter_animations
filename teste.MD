@@ -20,7 +20,7 @@
             -   [1.3.1.11. Volume Stream](#13111-volume-stream)
             -   [1.3.1.12. Stream filtrada](#13112-stream-filtrada)
         -   [1.3.2. Serviços de usuário](#132-serviços-de-usuário)
-            -   [1.3.2.1. Seguir](#1321-seguidores)
+            -   [1.3.2.1. Seguidores](#1321-seguidores)
             -   [1.3.2.2. Analisar Usuários](#1322-analisar-usuários)
             -   [1.3.2.3. Usuários silenciados](#1323-usuários-silenciados)
             -   [1.3.2.4. Bloqueio](#1324-bloqueio)
@@ -304,7 +304,7 @@ Future<void> main() async {
 
 ### 1.3.2. Serviços de usuário
 
-#### 1.3.2.1. Follows
+#### 1.3.2.1. Seguidores
 
 | Endpoint                                                                                                                                                                    | Nome do método                                                                                                             |
 | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------- |
