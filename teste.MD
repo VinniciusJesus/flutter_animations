@@ -1,5 +1,5 @@
 
--   [1. Guia 🌎](https://pub.dev/packages/twitter_api_v2#1-guide-)
+-   [1. Guía 🌎](#1-guía-)
     -   [1.1. Características 💎](https://pub.dev/packages/twitter_api_v2#11-features-)
     -   [1.2. Começando ⚡](https://pub.dev/packages/twitter_api_v2#12-getting-started-)
         -   [1.2.1. Instalando a biblioteca](https://pub.dev/packages/twitter_api_v2#121-install-library)
@@ -57,7 +57,7 @@
     -   [1.8. Licença 🔑](https://pub.dev/packages/twitter_api_v2#18-license-)
     -   [1.9. Mais Informações 🧐](https://pub.dev/packages/twitter_api_v2#19-more-information-)
 
-# 1. Guia 🌎[](https://pub.dev/packages/twitter_api_v2#1-guide-)
+# 1. Guía 🌎
 
 Essa biblioteca fornece a maneira mais fácil de usar a [API do Twitter v2.0](https://developer.twitter.com/en/docs/twitter-api/data-dictionary/introduction) em aplicativos **Dart** e **Flutter .**
 
