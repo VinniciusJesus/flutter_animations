@@ -13,7 +13,7 @@
             -   [1.3.1.4. Quote Tweets](#1314-quote-Tweets)
             -   [1.3.1.5. Procurar tweets](#1315-procurar-tweets)
             -   [1.3.1.6. Analisar Tweets](#1316-analisar-tweets)
-            -   [1.3.1.7. Contagens de Tweets](#1317-contagens-de-tweets)
+            -   [1.3.1.7. Contagens de Tweets](#1317-contagem-de-tweets)
             -   [1.3.1.8. Favoritos](#1318-favoritos)
             -   [1.3.1.9. Linhas do tempo](#1319-time-lines)
             -   [1.3.1.10. Ocultar respostas](#13110-ocultar-respostas)
