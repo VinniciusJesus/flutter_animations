@@ -5,12 +5,10 @@
   <br>
   Scale Animation
   <br>
-  https://user-images.githubusercontent.com/57817746/188710855-d2e14cea-3cd5-4cc6-aa97-1dac2e3dd872.mov
-
 </h1>
 
 
-
+  https://user-images.githubusercontent.com/57817746/188710855-d2e14cea-3cd5-4cc6-aa97-1dac2e3dd872.mov
 
 
 
