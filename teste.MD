@@ -30,7 +30,7 @@
         -   [1.3.4. Serviços de listas](#134-serviços-de-listas)
             -   [1.3.4.1. Analisar Listas](#1341-analisar-listas)
             -   [1.3.4.2. Fixações](#1342-fixações)
-            -   [1.3.4.3. Analisar tweet](#1344-analisar-tweet)
+            -   [1.3.4.3. Analisar tweet](#1343-analisar-tweet)
             -   [1.3.4.4. Gerenciar lista](#1344-gerenciar-listas)
             -   [1.3.4.5. Seguir](#1345-seguir)
             -   [1.3.4.6. Membros](#1346-membros)
