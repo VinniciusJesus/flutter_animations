@@ -1,6 +1,5 @@
-[N/A] I have updated/added relevant examples in examples.
-1.2. Breaking Change
- Yes, this is a breaking change.
- No, this is not a breaking change.
-1.3. Related Issues
-N/A - just created a Portuguese version of the README.md file for translation
+- [ ] 1.1. Checklist
+- [ ]  The title of my PR starts with a [Conventional Commit](https://conventionalcommits.org/) prefix (fix:, feat:, docs: etc).
+- [ ]  I have read the [Contributor Guide](https://github.com/twitter-dart/twitter-api-v2/blob/main/CONTRIBUTING.md) and followed the process outlined for submitting PRs.
+- [ ] [N/A] I have updated/added tests for ALL new/updated/fixed functionality.
+- [ ]  I have updated/added relevant documentation in docs and added dartdoc comments with 
