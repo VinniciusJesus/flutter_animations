@@ -12,7 +12,7 @@
 
 
 <h1 align="center">
- [https://user-images.githubusercontent.com/57817746/188708296-500226f9-1619-4a1b-86a5-b8947e769f49.mo](https://user-images.githubusercontent.com/57817746/188710550-0f006461-c533-4d42-973d-410ff6991be3.mov)v
+ https://user-images.githubusercontent.com/57817746/188708296-500226f9-1619-4a1b-86a5-b8947e769f49.mo](https://user-images.githubusercontent.com/57817746/188710550-0f006461-c533-4d42-973d-410ff6991be3.mov
 </h1>
 
 
