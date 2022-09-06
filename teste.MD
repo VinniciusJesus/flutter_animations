@@ -50,7 +50,7 @@
             -   [1.4.8.3. Retrocesso exponencial e jitter](#1483-retrocesso-exponencial-e-jitter)
             -   [1.4.8.4. Faça algo ao tentar novamente](#1484-faça-algo-ao-tentar-novamente)
         -   [1.4.9. Significado dos valores booleanos retornados](#149-significado-dos-valores-booleanos-retornados)
-        -   [1.4.10. Thrown Exceptions](#1410-thrown-exceptions)
+        -   [1.4.10. Thrown Exceptions](#1410-thrown-exceptions-)
     -   [1.5. Contribuição 🏆](#15-contribuição-)
     -   [1.6. Colaboradores ✨](#16-colaboradores-)
     -   [1.7. Apoio ❤️](#17-apoio)
@@ -725,7 +725,7 @@ Observe que essa especificação difere da [API oficial do Twitter v2.0](https:/
 
 No entanto, conforme mencionado anteriormente em **twitter_api_v2** , por exemplo, se você usar o método [createRetweet](https://pub.dev/documentation/twitter_api_v2/latest/twitter_api_v2/TweetsService/createRetweet.html) , ele retornará um **sinalizador indicando se o processo foi bem-sucedido ou não** . Esse princípio se aplica não apenas ao método [createRetweet](https://pub.dev/documentation/twitter_api_v2/latest/twitter_api_v2/TweetsService/createRetweet.html) , mas a todos os métodos que retornam sinalizadores como resultado do processamento.
 
-### 1.4.10.  Thrown Exceptions
+### 1.4.10. Thrown Exceptions
 
 **twitter_api_v2** fornece um objeto de exceção conveniente para facilitar o manuseio de respostas excepcionais e erros retornados da [API do Twitter v2.0](https://developer.twitter.com/en/docs/twitter-api/data-dictionary/introduction) .
 
@@ -761,7 +761,7 @@ Ou você pode criar uma [discussão](https://github.com/twitter-dart/twitter-api
 
 **Sinta-se à vontade para participar deste desenvolvimento, opiniões diversas tornam o software melhor!**
 
-## 1.6. Contribuidores ✨
+## 1.6. Colaboradores ✨
 
 Obrigado a essas pessoas maravilhosas ([emoji key](https://allcontributors.org/docs/en/emoji-key)):
 
