@@ -408,9 +408,9 @@ Future<void> main() async {
 | [GET /2/lists/:id/members](https://developer.twitter.com/en/docs/twitter-api/lists/list-members/api-reference/get-lists-id-members)                        | [lookupMembers](https://pub.dev/documentation/twitter_api_v2/latest/twitter_api_v2/ListsService/lookupMembers.html)         |
 | [GET /2/users/:id/list_memberships](https://developer.twitter.com/en/docs/twitter-api/lists/list-members/api-reference/get-lists-id-members)               | [lookupMemberships](https://pub.dev/documentation/twitter_api_v2/latest/twitter_api_v2/ListsService/lookupMemberships.html) |
 
-### 1.3.5. Compliance Service
+### 1.3.5. Serviço de Conformidade
 
-#### 1.3.5.1. Batch Compliance
+#### 1.3.5.1. Conformidade do Lote
 
 | Endpoint                                                                                                                                         | Nome do método                                                                                                      |
 | ------------------------------------------------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------ |
