@@ -25,7 +25,7 @@
             -   [1.3.2.3. Usuários silenciados](#1323-usuários-silenciados)
             -   [1.3.2.4. Bloqueios](#1324-bloqueios)
         -   [1.3.3. Spaces Services](#133-spaces-services)
-            -   [1.3.3.1. Procurar Space](#1331-procurar-space-services)
+            -   [1.3.3.1. Procurar Space](#1331-procurar-spaces)
             -   [1.3.3.2. Análise de Spaces](#1332-análise-de-spaces)
         -   [1.3.4. Serviços de listas](#134-serviços-de-listas)
             -   [1.3.4.1. Analisar Listas](#1341-analisar-listas)
@@ -341,7 +341,7 @@ Future<void> main() async {
 
 ### 1.3.3. Spaces Services
 
-#### 1.3.3.1. Search Spaces
+#### 1.3.3.1. Procurar Spaces
 
 | Endpoint                                                                                                                | Nome do método                                                                                           |
 | ----------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------ |
