@@ -50,7 +50,7 @@
             -   [1.4.8.3. Retrocesso exponencial e jitter](#1483-retrocesso-exponencial-e-jitter)
             -   [1.4.8.4. Faça algo ao tentar novamente](#1484-faça-algo-ao-tentar-novamente)
         -   [1.4.9. Significado dos valores booleanos retornados](#149-significado-dos-valores-booleanos-retornados)
-        -   [1.4.10. Thrown Exceptions](#1410-thrown-exceptions-)
+        -   [1.4.10. Thrown Exceptions](#1410-thrown-exceptions)
     -   [1.5. Contribuição 🏆](#15-contribuição-)
     -   [1.6. Colaboradores ✨](#16-colaboradores-)
     -   [1.7. Apoio ❤️](#17-apoio)
