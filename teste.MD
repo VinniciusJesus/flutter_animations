@@ -453,7 +453,7 @@ Future<void> main() async {
 
 ```
 
-### 1.4.3. Parâmetro nulo na solicitação
+### 1.4.3. Parâmetros nulos na requisição
 
 Nesta biblioteca, os parâmetros que não são necessários no momento da solicitação, ou seja, parâmetros opcionais, são definidos como anuláveis. No entanto, os desenvolvedores não precisam estar cientes do parâmetro null ao enviar solicitações ao usar essa biblioteca.
 
