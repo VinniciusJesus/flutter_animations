@@ -36,7 +36,7 @@
             -   [1.3.4.6. Membros](#1346-membros)
         -   [1.3.5. Serviço de Conformidade](#135-serviço-de-conformidade)
             -   [1.3.5.1. Conformidade do Lote](#1351-conformidade-do-lote)
-    -   [1.4. Dicas 🏄](#1.4-dicas)
+    -   [1.4. Dicas 🏄](#14-dicas)
         -   [1.4.1. Nomes de métodos](#141-nome-dos-métodos)
         -   [1.4.2. Gerar Bearer Token pelo aplicativo](#142-gerar-bearer-token-pelo-aplicativo)
         -   [1.4.3. Parâmetros nulos na requisição](#143-parâmetros-nulos-na-requisição)
