@@ -5,15 +5,13 @@
   <br>
   Scale Animation
   <br>
+  https://user-images.githubusercontent.com/57817746/188710855-d2e14cea-3cd5-4cc6-aa97-1dac2e3dd872.mov
+
 </h1>
 
-<h4 align="center">In this repository I will keep some animations that I made during studies.</h4>
 
 
 
-https://user-images.githubusercontent.com/57817746/188710855-d2e14cea-3cd5-4cc6-aa97-1dac2e3dd872.mov
 
-## How To Use
 
-Navigate between the repository folders, in each of them you will have a README file that will show the animation and the code responsible for it
 
