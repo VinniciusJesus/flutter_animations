@@ -53,7 +53,7 @@
         -   [1.4.10. Thrown Exceptions](#1410-thrown-exceptions)
     -   [1.5. Contribuição 🏆](#15-contribuição-)
     -   [1.6. Colaboradores ✨](#16-colaboradores-)
-    -   [1.7. Apoie ❤️](#17-apoie-❤️)
+    -   [1.7. Apoie ❤️](#17-apoie-)
     -   [1.8. Licença 🔑](#18-licença-)
     -   [1.9. Mais Informações 🧐](#19-mais-informações-)
 
