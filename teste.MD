@@ -587,7 +587,7 @@ Future<void> main() {
 
 ```
 
-### 1.4.8. Tente novamente quando ocorrer Timeout[](https://pub.dev/packages/twitter_api_v2#148-retry-when-a-timeout-occurs)
+### 1.4.8. Repetir quando ocorrer um Timeout
 
 Devido à natureza da comunicação desta biblioteca com sistemas externos, os tempos limite podem ocorrer devido a falhas de comunicação inevitáveis ​​ou travamentos temporários do servidor para o qual as solicitações são enviadas.
 
