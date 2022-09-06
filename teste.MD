@@ -32,7 +32,7 @@
             -   [1.3.4.2. Fixações](#1342-fixações)
             -   [1.3.4.3. Analisar tweet](#1343-analisar-tweet)
             -   [1.3.4.4. Gerenciar lista](#1344-gerenciar-listas)
-            -   [1.3.4.5. Seguir](#1345-seguir)
+            -   [1.3.4.5. Seguidores](#1345-seguidores)
             -   [1.3.4.6. Membros](#1346-membros)
         -   [1.3.5. Serviço de Conformidade](#135-serviço-de-conformidade)
             -   [1.3.5.1. Conformidade do Lote](#1351-conformidade-do-lote)
