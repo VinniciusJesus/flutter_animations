@@ -53,7 +53,7 @@
         -   [1.4.10. Thrown Exceptions](#1410-thrown-exceptions)
     -   [1.5. Contribuição 🏆](#15-contribuição-)
     -   [1.6. Colaboradores ✨](#16-colaboradores-)
-    -   [1.7. Apoio ❤️](#17-apoio)
+    -   [1.7. Apoie ❤️](#17-apoie-)
     -   [1.8. Licença 🔑](#18-licença-)
     -   [1.9. Mais Informações 🧐](#19-mais-informações-)
 
@@ -795,7 +795,7 @@ Obrigado a essas pessoas maravilhosas ([emoji key](https://allcontributors.org/d
 
 Este projeto segue a [all-contributors](https://github.com/all-contributors/all-contributors) especificação. Contribuições de qualquer tipo são bem-vindas!
 
-## 1.7. Suporte ❤️
+## 1.7. Apoie ❤️
 
 A maneira mais simples de nos mostrar seu apoio é **dar uma estrela ao projeto** at [GitHub](https://github.com/twitter-dart/twitter-api-v2) and [Pub.dev](https://pub.dev/packages/twitter_api_v2).
 
