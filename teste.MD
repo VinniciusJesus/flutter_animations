@@ -42,7 +42,7 @@
         -   [1.4.3. Parâmetros nulos na requisição](#143-parâmetros-nulos-na-requisição)
         -   [1.4.4.  Usando `expansions` para expandir campos de Objetos](#144-usando-expansions-para-expandir-campos-de-objetos)
         -   [1.4.5. Usando `fields` para expandir campos de Objetos](#145-usando-fields-para-expandir-campos-de-objetos)
-        -   [1.4.6. Fluxo de código de autorização OAuth 2.0 com PKCE](#147-fluxo-de-código-de-autorização-oauth20-com-pkce)
+        -   [1.4.6. Fluxo de código de autorização OAuth 2.0 com PKCE](#146-fluxo-de-código-de-autorização-oauth20-com-pkce)
         -   [1.4.7. Alterar a duração do Timeout](#147-alterar-a-duração-do-timeout)
         -   [1.4.8. Repetir quando ocorrer um Timeout](#148-repetir-quando-ocorrer-um-timeout)
             -   [1.4.8.1. Intervalos regulares](#1481-intervalos-regulares)
