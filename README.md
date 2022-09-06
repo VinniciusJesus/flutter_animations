@@ -1,3 +1,22 @@
-[Scala Animation](https://github.com/VinniciusJesus/flutter_animations/blob/master/scale_animation.dart)
 
-https://user-images.githubusercontent.com/57817746/161774308-e2f5db18-ab8e-4859-9197-8c646e983a27.mov
+<h1 align="center">
+  <br>
+  <a href="http://www.amitmerchant.com/electron-markdownify"><img src="https://pbs.twimg.com/media/Eu7e3mQVgAImK2o.png" alt="Markdownify" width="500"></a>
+  <br>
+  Flutter Animations
+  <br>
+</h1>
+
+<h4 align="center">In this repository I will keep some animations that I made during studies.</h4>
+
+
+
+
+https://user-images.githubusercontent.com/57817746/188708296-500226f9-1619-4a1b-86a5-b8947e769f49.mov
+
+
+
+## How To Use
+
+Navigate between the repository folders, in each of them you will have a README file that will show the animation and the code responsible for it
+
