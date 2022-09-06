@@ -705,7 +705,7 @@ Future<void> main() async {
 
 O [RetryEvent](https://pub.dev/documentation/twitter_api_v2/latest/twitter_api_v2/RetryEvent-class.html) passado para o retorno de chamada contém informações sobre novas tentativas.
 
-### 1.4.9. [](https://pub.dev/packages/twitter_api_v2#149-meaning-of-the-returned-boolean)booleano retornado[](https://pub.dev/packages/twitter_api_v2#149-meaning-of-the-returned-boolean)
+### 1.4.9. Significado dos valores booleanos retornados
 
 Um valor booleano é retornado do terminal quando a comunicação é principalmente POST, DELETE ou PUT.
 
