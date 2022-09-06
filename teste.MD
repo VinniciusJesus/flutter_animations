@@ -1,5 +1,0 @@
-- [ ] 1.1. Checklist
-- [ ]  The title of my PR starts with a [Conventional Commit](https://conventionalcommits.org/) prefix (fix:, feat:, docs: etc).
-- [ ]  I have read the [Contributor Guide](https://github.com/twitter-dart/twitter-api-v2/blob/main/CONTRIBUTING.md) and followed the process outlined for submitting PRs.
-- [ ] [N/A] I have updated/added tests for ALL new/updated/fixed functionality.
-- [ ]  I have updated/added relevant documentation in docs and added dartdoc comments with 
