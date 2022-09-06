@@ -12,6 +12,6 @@
 
 <h4 align="center">In this repository I will keep some animations that I made during studies.</h4>
 
-##How To Use
+## How To Use
 
 Navigate between the repository folders, in each of them you will have a README file that will show the animation and the code responsible for it
