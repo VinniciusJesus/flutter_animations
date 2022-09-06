@@ -11,10 +11,7 @@
 
 
 
-<h1 align="center">
- https://user-images.githubusercontent.com/57817746/188708296-500226f9-1619-4a1b-86a5-b8947e769f49.mo](https://user-images.githubusercontent.com/57817746/188710550-0f006461-c533-4d42-973d-410ff6991be3.mov
-</h1>
-
+https://user-images.githubusercontent.com/57817746/188710855-d2e14cea-3cd5-4cc6-aa97-1dac2e3dd872.mov
 
 ## How To Use
 
