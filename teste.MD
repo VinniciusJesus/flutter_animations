@@ -795,7 +795,7 @@ Obrigado a essas pessoas maravilhosas ([emoji key](https://allcontributors.org/d
 
 Este projeto segue a [all-contributors](https://github.com/all-contributors/all-contributors) especificação. Contribuições de qualquer tipo são bem-vindas!
 
-## 1.7. Apoie ❤️
+## 1.7. Apoie 
 
 A maneira mais simples de nos mostrar seu apoio é **dar uma estrela ao projeto** at [GitHub](https://github.com/twitter-dart/twitter-api-v2) and [Pub.dev](https://pub.dev/packages/twitter_api_v2).
 
